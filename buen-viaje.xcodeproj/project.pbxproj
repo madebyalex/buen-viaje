@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11480FB9250D5B93006B96F8 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 11480FB8250D5B93006B96F8 /* Fonts */; };
 		119A6EE2250D3D9B00F3260C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A6EE1250D3D9B00F3260C /* AppDelegate.swift */; };
 		119A6EE4250D3D9B00F3260C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A6EE3250D3D9B00F3260C /* SceneDelegate.swift */; };
-		119A6EE6250D3D9B00F3260C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A6EE5250D3D9B00F3260C /* ViewController.swift */; };
+		119A6EE6250D3D9B00F3260C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A6EE5250D3D9B00F3260C /* HomeVC.swift */; };
 		119A6EE9250D3D9B00F3260C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 119A6EE7250D3D9B00F3260C /* Main.storyboard */; };
 		119A6EEB250D3D9E00F3260C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 119A6EEA250D3D9E00F3260C /* Assets.xcassets */; };
 		119A6EEE250D3D9E00F3260C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 119A6EEC250D3D9E00F3260C /* LaunchScreen.storyboard */; };
+		119A6EF6250D53DD00F3260C /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A6EF5250D53DD00F3260C /* DemoData.swift */; };
+		119A6EFB250D540900F3260C /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A6EF8250D540800F3260C /* RoundedButton.swift */; };
+		119A6EFC250D540900F3260C /* ShadowCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A6EF9250D540800F3260C /* ShadowCardView.swift */; };
+		119A6EFD250D540900F3260C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A6EFA250D540900F3260C /* CardView.swift */; };
+		119A6F00250D55DF00F3260C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A6EFE250D55DF00F3260C /* LoginVC.swift */; };
+		119A6F01250D55DF00F3260C /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 119A6EFF250D55DF00F3260C /* LoginVC.xib */; };
+		119A6F04250D55F000F3260C /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A6F02250D55F000F3260C /* RegisterVC.swift */; };
+		119A6F05250D55F000F3260C /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 119A6F03250D55F000F3260C /* RegisterVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11480FB8250D5B93006B96F8 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		119A6EDE250D3D9B00F3260C /* buen-viaje.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "buen-viaje.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		119A6EE1250D3D9B00F3260C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		119A6EE3250D3D9B00F3260C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		119A6EE5250D3D9B00F3260C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		119A6EE5250D3D9B00F3260C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		119A6EE8250D3D9B00F3260C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		119A6EEA250D3D9E00F3260C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		119A6EED250D3D9E00F3260C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		119A6EEF250D3D9E00F3260C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		119A6EF5250D53DD00F3260C /* DemoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		119A6EF8250D540800F3260C /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		119A6EF9250D540800F3260C /* ShadowCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowCardView.swift; sourceTree = "<group>"; };
+		119A6EFA250D540900F3260C /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		119A6EFE250D55DF00F3260C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		119A6EFF250D55DF00F3260C /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		119A6F02250D55F000F3260C /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		119A6F03250D55F000F3260C /* RegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,40 @@
 		119A6EE0250D3D9B00F3260C /* buen-viaje */ = {
 			isa = PBXGroup;
 			children = (
+				119A6F06250D560200F3260C /* LoginRegister */,
+				119A6EF7250D53EB00F3260C /* Custom Views */,
 				119A6EE1250D3D9B00F3260C /* AppDelegate.swift */,
 				119A6EE3250D3D9B00F3260C /* SceneDelegate.swift */,
-				119A6EE5250D3D9B00F3260C /* ViewController.swift */,
+				119A6EE5250D3D9B00F3260C /* HomeVC.swift */,
 				119A6EE7250D3D9B00F3260C /* Main.storyboard */,
+				119A6EF5250D53DD00F3260C /* DemoData.swift */,
 				119A6EEA250D3D9E00F3260C /* Assets.xcassets */,
+				11480FB8250D5B93006B96F8 /* Fonts */,
 				119A6EEC250D3D9E00F3260C /* LaunchScreen.storyboard */,
 				119A6EEF250D3D9E00F3260C /* Info.plist */,
 			);
 			path = "buen-viaje";
+			sourceTree = "<group>";
+		};
+		119A6EF7250D53EB00F3260C /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				119A6EFA250D540900F3260C /* CardView.swift */,
+				119A6EF8250D540800F3260C /* RoundedButton.swift */,
+				119A6EF9250D540800F3260C /* ShadowCardView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		119A6F06250D560200F3260C /* LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				119A6EFE250D55DF00F3260C /* LoginVC.swift */,
+				119A6EFF250D55DF00F3260C /* LoginVC.xib */,
+				119A6F02250D55F000F3260C /* RegisterVC.swift */,
+				119A6F03250D55F000F3260C /* RegisterVC.xib */,
+			);
+			path = LoginRegister;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +168,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11480FB9250D5B93006B96F8 /* Fonts in Resources */,
 				119A6EEE250D3D9E00F3260C /* LaunchScreen.storyboard in Resources */,
 				119A6EEB250D3D9E00F3260C /* Assets.xcassets in Resources */,
+				119A6F01250D55DF00F3260C /* LoginVC.xib in Resources */,
 				119A6EE9250D3D9B00F3260C /* Main.storyboard in Resources */,
+				119A6F05250D55F000F3260C /* RegisterVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				119A6EE6250D3D9B00F3260C /* ViewController.swift in Sources */,
+				119A6EFD250D540900F3260C /* CardView.swift in Sources */,
+				119A6EFC250D540900F3260C /* ShadowCardView.swift in Sources */,
+				119A6F00250D55DF00F3260C /* LoginVC.swift in Sources */,
+				119A6EF6250D53DD00F3260C /* DemoData.swift in Sources */,
+				119A6EFB250D540900F3260C /* RoundedButton.swift in Sources */,
+				119A6EE6250D3D9B00F3260C /* HomeVC.swift in Sources */,
+				119A6F04250D55F000F3260C /* RegisterVC.swift in Sources */,
 				119A6EE2250D3D9B00F3260C /* AppDelegate.swift in Sources */,
 				119A6EE4250D3D9B00F3260C /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZN234ZPN46;
 				INFOPLIST_FILE = "buen-viaje/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZN234ZPN46;
 				INFOPLIST_FILE = "buen-viaje/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
