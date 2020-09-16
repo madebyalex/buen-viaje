@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -21,6 +21,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterVC" customModule="buen_viaje" customModuleProvider="target">
             <connections>
+                <outlet property="loginBtn" destination="lK7-lu-miH" id="CoL-jp-BfM"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -64,10 +65,10 @@
                             </constraints>
                         </stackView>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Intro text Register" translatesAutoresizingMaskIntoConstraints="NO" id="BXE-yI-fbW" userLabel="Intro text">
-                            <rect key="frame" x="0.0" y="44" width="366" height="478"/>
+                            <rect key="frame" x="0.0" y="44" width="366" height="418"/>
                         </imageView>
-                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="6pI-SL-loK" userLabel="Form">
-                            <rect key="frame" x="0.0" y="522" width="366" height="260"/>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6pI-SL-loK" userLabel="Form">
+                            <rect key="frame" x="0.0" y="462" width="366" height="320"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="mEM-y7-ySw">
                                     <rect key="frame" x="0.0" y="0.0" width="366" height="161"/>
@@ -89,8 +90,9 @@
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="38" id="QBF-hY-7de"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="18"/>
-                                                            <textInputTraits key="textInputTraits"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="24"/>
+                                                            <textInputTraits key="textInputTraits" textContentType="email"/>
                                                         </textField>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KVl-Wb-Wrw" userLabel="Underline">
                                                             <rect key="frame" x="0.0" y="38" width="366" height="2"/>
@@ -120,8 +122,9 @@
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="38" id="TIG-PA-A0A"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="18"/>
-                                                            <textInputTraits key="textInputTraits"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="24"/>
+                                                            <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                                         </textField>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yq8-0s-pKA" userLabel="Underline">
                                                             <rect key="frame" x="0.0" y="38" width="366" height="2"/>
@@ -135,14 +138,20 @@
                                             </subviews>
                                         </stackView>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="TH0-V5-xqA" secondAttribute="trailing" id="ANk-K5-7uu"/>
+                                        <constraint firstItem="05b-jj-69A" firstAttribute="leading" secondItem="mEM-y7-ySw" secondAttribute="leading" id="Up1-gw-yCy"/>
+                                        <constraint firstAttribute="trailing" secondItem="05b-jj-69A" secondAttribute="trailing" id="VNF-xe-JEe"/>
+                                        <constraint firstItem="TH0-V5-xqA" firstAttribute="leading" secondItem="mEM-y7-ySw" secondAttribute="leading" id="q4v-yY-3PJ"/>
+                                    </constraints>
                                 </stackView>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cyh-D8-QNf" customClass="RoundedButton" customModule="buen_viaje" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="196" width="366" height="64"/>
+                                    <rect key="frame" x="0.0" y="188.5" width="366" height="64"/>
                                     <color key="backgroundColor" name="primary_mint"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="64" id="HSc-Qb-jRU"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="19"/>
+                                    <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="21"/>
                                     <state key="normal" title="Register">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
@@ -151,14 +160,48 @@
                                             <real key="value" value="18"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="registerBtnClicked:" destination="-1" eventType="touchUpInside" id="tzg-LA-xhz"/>
+                                    </connections>
                                 </button>
+                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T7w-ad-6tg" userLabel="Switch entry">
+                                    <rect key="frame" x="60" y="280" width="246" height="40"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already member?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMH-PU-avF">
+                                            <rect key="frame" x="0.0" y="0.0" width="158" height="40"/>
+                                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="20"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lK7-lu-miH">
+                                            <rect key="frame" x="158" y="0.0" width="88" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="7BX-LA-tdH"/>
+                                                <constraint firstAttribute="width" constant="88" id="jf9-5d-Vi3"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
+                                            <state key="normal" title="Log In">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="semibold"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="gotoLoginScreen:" destination="-1" eventType="touchUpInside" id="4Mi-hw-QWS"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
                             </subviews>
                             <constraints>
-                                <constraint firstAttribute="height" constant="260" id="ATA-IA-sOZ"/>
+                                <constraint firstAttribute="height" constant="320" id="ATA-IA-sOZ"/>
+                                <constraint firstItem="mEM-y7-ySw" firstAttribute="leading" secondItem="6pI-SL-loK" secondAttribute="leading" id="HHN-JI-ctu"/>
+                                <constraint firstAttribute="trailing" secondItem="mEM-y7-ySw" secondAttribute="trailing" id="WQt-Cu-dn2"/>
+                                <constraint firstItem="Cyh-D8-QNf" firstAttribute="leading" secondItem="6pI-SL-loK" secondAttribute="leading" id="X4h-uA-ktX"/>
+                                <constraint firstAttribute="trailing" secondItem="Cyh-D8-QNf" secondAttribute="trailing" id="vIa-lm-isc"/>
                             </constraints>
                         </stackView>
                     </subviews>
                     <constraints>
+                        <constraint firstAttribute="bottom" secondItem="6pI-SL-loK" secondAttribute="bottom" id="QFp-u2-I9Y"/>
                         <constraint firstItem="BXE-yI-fbW" firstAttribute="leading" secondItem="yPU-uA-T1Z" secondAttribute="leading" id="Vgh-nn-z0T"/>
                         <constraint firstItem="qxB-GB-xhe" firstAttribute="top" secondItem="yPU-uA-T1Z" secondAttribute="top" id="Vn8-ff-rKG"/>
                         <constraint firstAttribute="trailing" secondItem="6pI-SL-loK" secondAttribute="trailing" id="XKY-yw-wv9"/>

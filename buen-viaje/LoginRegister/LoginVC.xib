@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -21,6 +21,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginVC" customModule="buen_viaje" customModuleProvider="target">
             <connections>
+                <outlet property="registerBtn" destination="TZe-ZU-032" id="vlU-Hi-Z8R"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -64,12 +65,12 @@
                             </constraints>
                         </stackView>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Intro text Login" translatesAutoresizingMaskIntoConstraints="NO" id="PDQ-IJ-5Gr" userLabel="Intro text">
-                            <rect key="frame" x="0.0" y="44" width="366" height="478"/>
+                            <rect key="frame" x="0.0" y="44" width="366" height="418"/>
                         </imageView>
-                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="07A-oz-Icy" userLabel="Form">
-                            <rect key="frame" x="0.0" y="522" width="366" height="260"/>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="07A-oz-Icy" userLabel="Form">
+                            <rect key="frame" x="0.0" y="462" width="366" height="320"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="mHv-2A-amN">
+                                <stackView opaque="NO" contentMode="scaleToFill" restorationIdentifier="LoginPage" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="mHv-2A-amN">
                                     <rect key="frame" x="0.0" y="0.0" width="366" height="161"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ygw-yt-u6b" userLabel="Fieldset email">
@@ -89,8 +90,9 @@
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="38" id="xT9-S1-FlF"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="18"/>
-                                                            <textInputTraits key="textInputTraits"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="24"/>
+                                                            <textInputTraits key="textInputTraits" textContentType="email"/>
                                                         </textField>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uhM-1k-Mah" userLabel="Underline">
                                                             <rect key="frame" x="0.0" y="38" width="366" height="2"/>
@@ -103,7 +105,7 @@
                                                 </stackView>
                                             </subviews>
                                         </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="fPf-Jh-WJa" userLabel="Fieldset email">
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="fPf-Jh-WJa" userLabel="Fieldset password">
                                             <rect key="frame" x="0.0" y="96.5" width="366" height="64.5"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1W-Io-uC2">
@@ -120,8 +122,9 @@
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="38" id="DCy-Nu-23D"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="18"/>
-                                                            <textInputTraits key="textInputTraits"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="24"/>
+                                                            <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                                         </textField>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NKd-Ob-HKo" userLabel="Underline">
                                                             <rect key="frame" x="0.0" y="38" width="366" height="2"/>
@@ -135,14 +138,20 @@
                                             </subviews>
                                         </stackView>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="ygw-yt-u6b" secondAttribute="trailing" id="58I-ay-Qf9"/>
+                                        <constraint firstAttribute="trailing" secondItem="fPf-Jh-WJa" secondAttribute="trailing" id="YyV-4t-Lja"/>
+                                        <constraint firstItem="ygw-yt-u6b" firstAttribute="leading" secondItem="mHv-2A-amN" secondAttribute="leading" id="aEG-NJ-sAx"/>
+                                        <constraint firstItem="fPf-Jh-WJa" firstAttribute="leading" secondItem="mHv-2A-amN" secondAttribute="leading" id="dyG-jt-a9H"/>
+                                    </constraints>
                                 </stackView>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="415-S8-Ew8" customClass="RoundedButton" customModule="buen_viaje" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="196" width="366" height="64"/>
+                                    <rect key="frame" x="0.0" y="188.5" width="366" height="64"/>
                                     <color key="backgroundColor" name="primary_salmon"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="64" id="agV-jy-KGu"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="19"/>
+                                    <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="21"/>
                                     <state key="normal" title="Log In">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
@@ -151,10 +160,43 @@
                                             <real key="value" value="18"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="loginBtnClicked:" destination="-1" eventType="touchUpInside" id="2m6-tX-tzz"/>
+                                    </connections>
                                 </button>
+                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aOs-IM-Mq9" userLabel="Switch entry">
+                                    <rect key="frame" x="20" y="280" width="326" height="40"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New here?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcp-pR-YgU">
+                                            <rect key="frame" x="0.0" y="0.0" width="96" height="40"/>
+                                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="20"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="LoginVC" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZe-ZU-032">
+                                            <rect key="frame" x="96" y="0.0" width="230" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="aGt-7A-Zga"/>
+                                                <constraint firstAttribute="width" constant="230" id="dIm-21-BMs"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
+                                            <state key="normal" title="Create new account">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="semibold"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="gotoRegisterScreen:" destination="-1" eventType="touchUpInside" id="AQM-eI-2vu"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
                             </subviews>
                             <constraints>
-                                <constraint firstAttribute="height" constant="260" id="kR8-oy-rO0"/>
+                                <constraint firstItem="mHv-2A-amN" firstAttribute="leading" secondItem="07A-oz-Icy" secondAttribute="leading" id="1QA-Ui-sZ7"/>
+                                <constraint firstAttribute="trailing" secondItem="mHv-2A-amN" secondAttribute="trailing" id="4Eq-6X-Zrh"/>
+                                <constraint firstAttribute="trailing" secondItem="415-S8-Ew8" secondAttribute="trailing" id="7NY-V3-mFO"/>
+                                <constraint firstItem="415-S8-Ew8" firstAttribute="leading" secondItem="07A-oz-Icy" secondAttribute="leading" id="gxd-U3-qNH"/>
+                                <constraint firstAttribute="height" constant="320" id="kR8-oy-rO0"/>
                             </constraints>
                         </stackView>
                     </subviews>

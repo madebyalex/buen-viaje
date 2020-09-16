@@ -9,7 +9,8 @@
 import UIKit
 
 class LoginVC: UIViewController {
-
+    @IBOutlet weak var registerBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,5 +27,14 @@ class LoginVC: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func gotoRegisterScreen(_ sender: UIButton) {
+        let registerVC = RegisterVC()
+        registerVC.modalPresentationStyle = .fullScreen
+        present(registerVC, animated: true)
+    }
+    
+    @IBAction func loginBtnClicked (_ sender: Any) {
+        dismiss(animated: true)
+    }
+    
 }
