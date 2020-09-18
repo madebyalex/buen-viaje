@@ -3,11 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11480FB9250D5B93006B96F8 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 11480FB8250D5B93006B96F8 /* Fonts */; };
+		115ED49D2512C30E00349CEE /* Vacation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115ED49C2512C30E00349CEE /* Vacation.swift */; };
+		116697332515565600172662 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 116697212515565400172662 /* Poppins-Black.ttf */; };
+		116697342515565600172662 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 116697222515565400172662 /* Poppins-ExtraLightItalic.ttf */; };
+		116697352515565600172662 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 116697232515565400172662 /* Poppins-MediumItalic.ttf */; };
+		116697362515565600172662 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 116697242515565400172662 /* Poppins-SemiBold.ttf */; };
+		116697372515565600172662 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 116697252515565400172662 /* Poppins-ExtraLight.ttf */; };
+		116697382515565600172662 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 116697262515565400172662 /* Poppins-Light.ttf */; };
+		116697392515565600172662 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 116697272515565400172662 /* Poppins-Bold.ttf */; };
+		1166973A2515565600172662 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 116697282515565400172662 /* Poppins-ExtraBold.ttf */; };
+		1166973B2515565600172662 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 116697292515565500172662 /* Poppins-Medium.ttf */; };
+		1166973C2515565600172662 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1166972A2515565500172662 /* Poppins-Regular.ttf */; };
+		1166973D2515565600172662 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1166972B2515565500172662 /* Poppins-ExtraBoldItalic.ttf */; };
+		1166973E2515565600172662 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1166972C2515565500172662 /* Poppins-LightItalic.ttf */; };
+		1166973F2515565600172662 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1166972D2515565500172662 /* Poppins-ThinItalic.ttf */; };
+		116697402515565600172662 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1166972E2515565500172662 /* Poppins-SemiBoldItalic.ttf */; };
+		116697412515565600172662 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1166972F2515565500172662 /* Poppins-BoldItalic.ttf */; };
+		116697422515565600172662 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 116697302515565500172662 /* Poppins-BlackItalic.ttf */; };
+		116697432515565600172662 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 116697312515565500172662 /* Poppins-Thin.ttf */; };
+		116697442515565600172662 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 116697322515565500172662 /* Poppins-Italic.ttf */; };
+		1166974725155DF800172662 /* Int+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166974625155DF800172662 /* Int+Ext.swift */; };
+		1166974925156B5D00172662 /* VacationDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166974825156B5D00172662 /* VacationDetailsVC.swift */; };
+		1184DEC025140D8600E4A610 /* VacationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1184DEBE25140D8600E4A610 /* VacationCell.swift */; };
+		1184DEC125140D8600E4A610 /* VacationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1184DEBF25140D8600E4A610 /* VacationCell.xib */; };
 		119A6EE2250D3D9B00F3260C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A6EE1250D3D9B00F3260C /* AppDelegate.swift */; };
 		119A6EE4250D3D9B00F3260C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A6EE3250D3D9B00F3260C /* SceneDelegate.swift */; };
 		119A6EE6250D3D9B00F3260C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A6EE5250D3D9B00F3260C /* HomeVC.swift */; };
@@ -22,10 +44,33 @@
 		119A6F01250D55DF00F3260C /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 119A6EFF250D55DF00F3260C /* LoginVC.xib */; };
 		119A6F04250D55F000F3260C /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A6F02250D55F000F3260C /* RegisterVC.swift */; };
 		119A6F05250D55F000F3260C /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 119A6F03250D55F000F3260C /* RegisterVC.xib */; };
+		BFB0CFA4F1C3FEC6CD03859B /* Pods_buen_viaje.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2A669A157BA975A55E54B9 /* Pods_buen_viaje.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		11480FB8250D5B93006B96F8 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		115ED49C2512C30E00349CEE /* Vacation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vacation.swift; sourceTree = "<group>"; };
+		116697212515565400172662 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		116697222515565400172662 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		116697232515565400172662 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		116697242515565400172662 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		116697252515565400172662 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		116697262515565400172662 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		116697272515565400172662 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		116697282515565400172662 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		116697292515565500172662 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		1166972A2515565500172662 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		1166972B2515565500172662 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		1166972C2515565500172662 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		1166972D2515565500172662 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		1166972E2515565500172662 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		1166972F2515565500172662 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		116697302515565500172662 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		116697312515565500172662 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		116697322515565500172662 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		1166974625155DF800172662 /* Int+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Ext.swift"; sourceTree = "<group>"; };
+		1166974825156B5D00172662 /* VacationDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationDetailsVC.swift; sourceTree = "<group>"; };
+		1184DEBE25140D8600E4A610 /* VacationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationCell.swift; sourceTree = "<group>"; };
+		1184DEBF25140D8600E4A610 /* VacationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VacationCell.xib; sourceTree = "<group>"; };
 		119A6EDE250D3D9B00F3260C /* buen-viaje.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "buen-viaje.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		119A6EE1250D3D9B00F3260C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		119A6EE3250D3D9B00F3260C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +87,9 @@
 		119A6EFF250D55DF00F3260C /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		119A6F02250D55F000F3260C /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		119A6F03250D55F000F3260C /* RegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
+		449FB6F6381B7B947E2C766B /* Pods-buen-viaje.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buen-viaje.debug.xcconfig"; path = "Target Support Files/Pods-buen-viaje/Pods-buen-viaje.debug.xcconfig"; sourceTree = "<group>"; };
+		70C8EF4D89FA1F30F345713C /* Pods-buen-viaje.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buen-viaje.release.xcconfig"; path = "Target Support Files/Pods-buen-viaje/Pods-buen-viaje.release.xcconfig"; sourceTree = "<group>"; };
+		FB2A669A157BA975A55E54B9 /* Pods_buen_viaje.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_buen_viaje.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +97,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB0CFA4F1C3FEC6CD03859B /* Pods_buen_viaje.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		115ED49B2512C2EA00349CEE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				115ED49C2512C30E00349CEE /* Vacation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		116697202515563400172662 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				116697212515565400172662 /* Poppins-Black.ttf */,
+				116697302515565500172662 /* Poppins-BlackItalic.ttf */,
+				116697272515565400172662 /* Poppins-Bold.ttf */,
+				1166972F2515565500172662 /* Poppins-BoldItalic.ttf */,
+				116697282515565400172662 /* Poppins-ExtraBold.ttf */,
+				1166972B2515565500172662 /* Poppins-ExtraBoldItalic.ttf */,
+				116697252515565400172662 /* Poppins-ExtraLight.ttf */,
+				116697222515565400172662 /* Poppins-ExtraLightItalic.ttf */,
+				116697322515565500172662 /* Poppins-Italic.ttf */,
+				116697262515565400172662 /* Poppins-Light.ttf */,
+				1166972C2515565500172662 /* Poppins-LightItalic.ttf */,
+				116697292515565500172662 /* Poppins-Medium.ttf */,
+				116697232515565400172662 /* Poppins-MediumItalic.ttf */,
+				1166972A2515565500172662 /* Poppins-Regular.ttf */,
+				116697242515565400172662 /* Poppins-SemiBold.ttf */,
+				1166972E2515565500172662 /* Poppins-SemiBoldItalic.ttf */,
+				116697312515565500172662 /* Poppins-Thin.ttf */,
+				1166972D2515565500172662 /* Poppins-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1166974525155DC900172662 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1166974625155DF800172662 /* Int+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1184DEBD25140D4D00E4A610 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1184DEBE25140D8600E4A610 /* VacationCell.swift */,
+				1184DEBF25140D8600E4A610 /* VacationCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		119A6ED5250D3D9B00F3260C = {
 			isa = PBXGroup;
 			children = (
 				119A6EE0250D3D9B00F3260C /* buen-viaje */,
 				119A6EDF250D3D9B00F3260C /* Products */,
+				1C0D1C9EFDE4E10EBAB5447D /* Pods */,
+				463339670B7CFDF3E457F2C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,15 +175,19 @@
 		119A6EE0250D3D9B00F3260C /* buen-viaje */ = {
 			isa = PBXGroup;
 			children = (
-				119A6F06250D560200F3260C /* LoginRegister */,
+				115ED49B2512C2EA00349CEE /* Models */,
 				119A6EF7250D53EB00F3260C /* Custom Views */,
+				1166974525155DC900172662 /* Extensions */,
+				1184DEBD25140D4D00E4A610 /* Cells */,
+				119A6F06250D560200F3260C /* LoginRegister */,
+				119A6EE5250D3D9B00F3260C /* HomeVC.swift */,
+				1166974825156B5D00172662 /* VacationDetailsVC.swift */,
+				119A6EE7250D3D9B00F3260C /* Main.storyboard */,
 				119A6EE1250D3D9B00F3260C /* AppDelegate.swift */,
 				119A6EE3250D3D9B00F3260C /* SceneDelegate.swift */,
-				119A6EE5250D3D9B00F3260C /* HomeVC.swift */,
-				119A6EE7250D3D9B00F3260C /* Main.storyboard */,
 				119A6EF5250D53DD00F3260C /* DemoData.swift */,
 				119A6EEA250D3D9E00F3260C /* Assets.xcassets */,
-				11480FB8250D5B93006B96F8 /* Fonts */,
+				116697202515563400172662 /* Fonts */,
 				119A6EEC250D3D9E00F3260C /* LaunchScreen.storyboard */,
 				119A6EEF250D3D9E00F3260C /* Info.plist */,
 			);
@@ -110,6 +215,23 @@
 			path = LoginRegister;
 			sourceTree = "<group>";
 		};
+		1C0D1C9EFDE4E10EBAB5447D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				449FB6F6381B7B947E2C766B /* Pods-buen-viaje.debug.xcconfig */,
+				70C8EF4D89FA1F30F345713C /* Pods-buen-viaje.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		463339670B7CFDF3E457F2C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB2A669A157BA975A55E54B9 /* Pods_buen_viaje.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 119A6EF2250D3D9E00F3260C /* Build configuration list for PBXNativeTarget "buen-viaje" */;
 			buildPhases = (
+				EC19566248F16DD1933C046A /* [CP] Check Pods Manifest.lock */,
 				119A6EDA250D3D9B00F3260C /* Sources */,
 				119A6EDB250D3D9B00F3260C /* Frameworks */,
 				119A6EDC250D3D9B00F3260C /* Resources */,
+				4D9725B8BB33464FA635B822 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,31 +292,95 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11480FB9250D5B93006B96F8 /* Fonts in Resources */,
+				116697372515565600172662 /* Poppins-ExtraLight.ttf in Resources */,
+				1166973A2515565600172662 /* Poppins-ExtraBold.ttf in Resources */,
+				116697382515565600172662 /* Poppins-Light.ttf in Resources */,
+				116697332515565600172662 /* Poppins-Black.ttf in Resources */,
+				1166973E2515565600172662 /* Poppins-LightItalic.ttf in Resources */,
+				1166973C2515565600172662 /* Poppins-Regular.ttf in Resources */,
+				1166973B2515565600172662 /* Poppins-Medium.ttf in Resources */,
+				116697362515565600172662 /* Poppins-SemiBold.ttf in Resources */,
 				119A6EEE250D3D9E00F3260C /* LaunchScreen.storyboard in Resources */,
+				116697342515565600172662 /* Poppins-ExtraLightItalic.ttf in Resources */,
 				119A6EEB250D3D9E00F3260C /* Assets.xcassets in Resources */,
 				119A6F01250D55DF00F3260C /* LoginVC.xib in Resources */,
+				1166973D2515565600172662 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				116697392515565600172662 /* Poppins-Bold.ttf in Resources */,
 				119A6EE9250D3D9B00F3260C /* Main.storyboard in Resources */,
 				119A6F05250D55F000F3260C /* RegisterVC.xib in Resources */,
+				116697422515565600172662 /* Poppins-BlackItalic.ttf in Resources */,
+				116697442515565600172662 /* Poppins-Italic.ttf in Resources */,
+				116697402515565600172662 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				1166973F2515565600172662 /* Poppins-ThinItalic.ttf in Resources */,
+				116697412515565600172662 /* Poppins-BoldItalic.ttf in Resources */,
+				116697432515565600172662 /* Poppins-Thin.ttf in Resources */,
+				1184DEC125140D8600E4A610 /* VacationCell.xib in Resources */,
+				116697352515565600172662 /* Poppins-MediumItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D9725B8BB33464FA635B822 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-buen-viaje/Pods-buen-viaje-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-buen-viaje/Pods-buen-viaje-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-buen-viaje/Pods-buen-viaje-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC19566248F16DD1933C046A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-buen-viaje-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		119A6EDA250D3D9B00F3260C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				115ED49D2512C30E00349CEE /* Vacation.swift in Sources */,
 				119A6EFD250D540900F3260C /* CardView.swift in Sources */,
 				119A6EFC250D540900F3260C /* ShadowCardView.swift in Sources */,
 				119A6F00250D55DF00F3260C /* LoginVC.swift in Sources */,
+				1184DEC025140D8600E4A610 /* VacationCell.swift in Sources */,
 				119A6EF6250D53DD00F3260C /* DemoData.swift in Sources */,
 				119A6EFB250D540900F3260C /* RoundedButton.swift in Sources */,
 				119A6EE6250D3D9B00F3260C /* HomeVC.swift in Sources */,
 				119A6F04250D55F000F3260C /* RegisterVC.swift in Sources */,
+				1166974925156B5D00172662 /* VacationDetailsVC.swift in Sources */,
 				119A6EE2250D3D9B00F3260C /* AppDelegate.swift in Sources */,
 				119A6EE4250D3D9B00F3260C /* SceneDelegate.swift in Sources */,
+				1166974725155DF800172662 /* Int+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +522,7 @@
 		};
 		119A6EF3250D3D9E00F3260C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 449FB6F6381B7B947E2C766B /* Pods-buen-viaje.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -353,6 +542,7 @@
 		};
 		119A6EF4250D3D9E00F3260C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C8EF4D89FA1F30F345713C /* Pods-buen-viaje.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

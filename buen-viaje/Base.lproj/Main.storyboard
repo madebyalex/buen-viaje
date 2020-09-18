@@ -15,7 +15,19 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ohd-BM-olD">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.95686274509803915" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ohd-BM-olD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="BKB-UL-u40"/>
+                            <constraint firstAttribute="bottom" secondItem="Ohd-BM-olD" secondAttribute="bottom" id="GW9-du-xy7"/>
+                            <constraint firstItem="Ohd-BM-olD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mul-T6-7XR"/>
+                            <constraint firstItem="Ohd-BM-olD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wXE-9m-lxZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="18h-VQ-sso">
@@ -26,40 +38,30 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="Ohd-BM-olD" id="zEZ-cp-jZH"/>
+                        <segue destination="78O-I8-5Ob" kind="show" identifier="toVacationDetails" id="z2P-EN-CkI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="114.50892857142857"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="5cA-hy-R2H">
-            <objects>
-                <viewController id="jPs-a0-Mb1" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9be-1W-sPZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="NGJ-sz-6ZL"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9Cv-xn-TtF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1860.8695652173915" y="641.51785714285711"/>
-        </scene>
-        <!--View Controller-->
+        <!--Vacation DetailsVC-->
         <scene sceneID="mnI-ha-eIC">
             <objects>
-                <viewController id="78O-I8-5Ob" sceneMemberID="viewController">
+                <viewController id="78O-I8-5Ob" customClass="VacationDetailsVC" customModule="buen_viaje" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Ul-ZC-c5F">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="unL-ey-Afm"/>
                     </view>
+                    <navigationItem key="navigationItem" id="TNl-Df-i5E"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zH8-we-o8j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1862.3188405797102" y="-79.017857142857139"/>
+            <point key="canvasLocation" x="1901" y="115"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="w6U-h8-e3M">
