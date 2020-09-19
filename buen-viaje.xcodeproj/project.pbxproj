@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1103548725167A8600E1976F /* ThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103548625167A8600E1976F /* ThumbnailCell.swift */; };
 		115ED49D2512C30E00349CEE /* Vacation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115ED49C2512C30E00349CEE /* Vacation.swift */; };
 		116697332515565600172662 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 116697212515565400172662 /* Poppins-Black.ttf */; };
 		116697342515565600172662 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 116697222515565400172662 /* Poppins-ExtraLightItalic.ttf */; };
@@ -48,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1103548625167A8600E1976F /* ThumbnailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailCell.swift; sourceTree = "<group>"; };
 		115ED49C2512C30E00349CEE /* Vacation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vacation.swift; sourceTree = "<group>"; };
 		116697212515565400172662 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
 		116697222515565400172662 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 			children = (
 				1184DEBE25140D8600E4A610 /* VacationCell.swift */,
 				1184DEBF25140D8600E4A610 /* VacationCell.xib */,
+				1103548625167A8600E1976F /* ThumbnailCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 			files = (
 				115ED49D2512C30E00349CEE /* Vacation.swift in Sources */,
 				119A6EFD250D540900F3260C /* CardView.swift in Sources */,
+				1103548725167A8600E1976F /* ThumbnailCell.swift in Sources */,
 				119A6EFC250D540900F3260C /* ShadowCardView.swift in Sources */,
 				119A6F00250D55DF00F3260C /* LoginVC.swift in Sources */,
 				1184DEC025140D8600E4A610 /* VacationCell.swift in Sources */,

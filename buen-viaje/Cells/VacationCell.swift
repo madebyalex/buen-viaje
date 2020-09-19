@@ -13,7 +13,7 @@ class VacationCell: UITableViewCell {
     @IBOutlet weak var mainImage: UIImageView!
     @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var priceLbl: UILabel!
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
 
